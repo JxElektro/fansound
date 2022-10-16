@@ -1,0 +1,45 @@
+
+
+
+*{
+  background-color: black;
+  
+}
+
+.btn{
+  color: aliceblue;
+  border-color: aliceblue;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+
+.btn:active{
+  background-color: aliceblue;
+  color: black;
+  cursor: pointer;
+}
+
+
+#top{
+display: flex;
+justify-content: right;
+}
+
+#app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+#btn{
+width: 20vh;
+}
