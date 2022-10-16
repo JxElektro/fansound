@@ -19,5 +19,5 @@ music.pause();
 close.addEventListener('click', () => {
 music.pause();
 // close the window
-window.close();
+app.quit()
 });

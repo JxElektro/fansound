@@ -3,9 +3,12 @@
 
 *{
   background-color: black;
-  
+overflow: hidden;
 }
 
+body{
+  height: 100vh;
+}
 .btn{
   color: aliceblue;
   border-color: aliceblue;
@@ -36,7 +39,7 @@ justify-content: right;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
   background-color: black;
 }
 
